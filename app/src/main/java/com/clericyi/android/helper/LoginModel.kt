@@ -1,6 +1,6 @@
 package com.clericyi.android.helper
 
-import com.clericyi.android.helper.mvp.BaseDataSource
+import com.clericyi.android.helper.mvp.BaseMvpModel
 
 /**
  * author: ClericYi
@@ -9,7 +9,7 @@ import com.clericyi.android.helper.mvp.BaseDataSource
 data class LoginModel(
     val presenter: MainPresenter,
     var responseCode: Int
-): BaseDataSource<MainPresenter>(presenter), MainContract.Model {
+): BaseMvpModel<MainPresenter>(presenter), MainContract.Model {
     override fun execute() {
         presenter.response(this)
     }
