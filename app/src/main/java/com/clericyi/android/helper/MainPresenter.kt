@@ -1,18 +1,24 @@
 package com.clericyi.android.helper
 
 import com.clericyi.android.helper.mvp.BaseMvpPresenter
+import com.clericyi.android.helper.mvp.interf.IMvpModel
 
 /**
  * author: ClericYi
  * time: 2021/01/04
  */
-class MainMvpPresenter: BaseMvpPresenter<MainMvpActivity, MainDataSource, MainContract.Presenter>() {
+class MainPresenter: BaseMvpPresenter<MainActivity, LoginModel>(),  MainContract.Presenter<LoginModel> {
 
-    override fun getContract(): MainContract.Presenter {
-        TODO("Not yet implemented")
+    override fun createModel(): LoginModel {
+        return LoginModel(this, 200)
     }
 
-    override fun getModel(): MainDataSource {
-        TODO("Not yet implemented")
+    override fun request() {
+        model.execute()
     }
+
+    override fun response(data: LoginModel) {
+        getView()?.handleResponse(data)
+    }
+
 }

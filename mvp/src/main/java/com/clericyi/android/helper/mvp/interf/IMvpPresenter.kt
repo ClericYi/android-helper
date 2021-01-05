@@ -1,4 +1,4 @@
-package com.clericyi.android.helper.mvp.`interface`
+package com.clericyi.android.helper.mvp.interf
 
 /**
  * author: ClericYi
@@ -8,6 +8,4 @@ interface IMvpPresenter {
     fun bindView(mvpView: IMvpView)
 
     fun unBindView()
-
-    fun createModel(): IMvpModel
 }

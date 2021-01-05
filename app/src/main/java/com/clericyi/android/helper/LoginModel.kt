@@ -1,7 +1,6 @@
 package com.clericyi.android.helper
 
 import com.clericyi.android.helper.mvp.BaseDataSource
-import com.clericyi.android.helper.mvp.interf.IMvpDataSource
 
 /**
  * author: ClericYi
