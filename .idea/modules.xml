@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-helper.iml" filepath="$PROJECT_DIR$/.idea/modules/android-helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-helper.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-helper.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvp/android-helper.mvp.iml" filepath="$PROJECT_DIR$/.idea/modules/mvp/android-helper.mvp.iml" />
+    </modules>
+  </component>
+</project>
