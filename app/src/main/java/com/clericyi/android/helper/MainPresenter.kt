@@ -1,7 +1,6 @@
 package com.clericyi.android.helper
 
 import com.clericyi.android.helper.mvp.BaseMvpPresenter
-import com.clericyi.android.helper.mvp.interf.IMvpModel
 
 /**
  * author: ClericYi
