@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-helper.iml" filepath="$PROJECT_DIR$/.idea/modules/android-helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-helper.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-helper.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catcher/android-helper.catcher.iml" filepath="$PROJECT_DIR$/.idea/modules/catcher/android-helper.catcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvp/android-helper.mvp.iml" filepath="$PROJECT_DIR$/.idea/modules/mvp/android-helper.mvp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/android-helper.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/android-helper.utils.iml" />
     </modules>
   </component>
 </project>

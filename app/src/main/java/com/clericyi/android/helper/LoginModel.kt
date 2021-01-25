@@ -8,7 +8,7 @@ import com.clericyi.android.helper.mvp.BaseMvpModel
  */
 data class LoginModel(
     val presenter: MainPresenter,
-    var responseCode: Int
+    var responseCode: String
 ): BaseMvpModel<MainPresenter>(presenter), MainContract.Model {
     override fun execute() {
         presenter.response(this)

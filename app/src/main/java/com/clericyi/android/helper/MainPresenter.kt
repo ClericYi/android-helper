@@ -9,7 +9,7 @@ import com.clericyi.android.helper.mvp.BaseMvpPresenter
 class MainPresenter: BaseMvpPresenter<MainActivity, LoginModel>(),  MainContract.Presenter<LoginModel> {
 
     override fun createModel(): LoginModel {
-        return LoginModel(this, 200)
+        return LoginModel(this, "200")
     }
 
     override fun request() {

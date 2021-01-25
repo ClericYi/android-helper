@@ -1,4 +1,4 @@
-package com.clericyi.android.helper.utils
+package com.clericyi.android.catcher.utils
 
 import android.content.Context
 
